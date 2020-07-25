@@ -1,5 +1,6 @@
 """
 I don't like this implementation, because it does not make use of hashing, and is O(n^2) if our numbers are not distributed evenly.
+Naive hash table method is even worse though.
 """
 def two_sum(nums, t):
     head = 0
